@@ -1,0 +1,129 @@
+body{
+    /* background-color: rgba(76, 126, 170, 0.279); */
+background-image: url(./image/creative-flat-lay-photo-workspace-desk.jpg);
+}
+
+
+#main{
+    width: 600px;
+    height: 300px;
+        margin: auto;
+    }
+    
+fieldset{
+    background-color: hwb(194 2% 33% / 0.492);
+    border: 5px dotted tomato;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  legend{
+      background-color: rgb(8, 24, 248);
+      border: 1px double  rgb(0, 0, 0);
+      color: aliceblue;
+      text-align: center;
+      font-size: 24px;
+      border-radius: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-shadow: 3px 4px 5px black;      
+text-transform: uppercase;  
+    }
+    legend:hover{
+      background-color: rgb(20, 8, 248);
+      border: 1px double  rgb(234, 12, 12);
+      color: aliceblue;
+      text-align: center;
+      font-size: 28px;
+      border-radius: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-shadow: 3px 4px 5px rgb(178, 215, 10);      
+text-transform:uppercase;  
+
+    }
+  label{
+    color: blue;
+    font-size: 18px;
+    
+
+  }
+  label:hover{
+    background-color: beige;
+    color:black;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  input{
+   
+    border: 2px solid forestgreen;
+    border-radius: 20px;
+    margin:10px;
+text-transform:capitalize;
+width: 400px;
+height: 20px;
+text-align:center;
+margin-left:10px ;
+font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+input:hover{
+    background-color: rgba(14, 180, 50, 0.334);
+cursor: pointer;
+font-size: 24px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+width: 350px;
+height: 25px;
+
+}
+input:focus{
+    background-color: rgba(15, 211, 218, 0.356);
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+::-webkit-input-placeholder{
+    color: rgba(169, 169, 169, 0.507);
+    
+}
+input[type=text]{
+    background-image: url(./image/men\ icon\ png.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+
+}
+input[type=mail]{
+    background-image: url(./image/email\ icon.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+section[type=number]{
+    background-image: url(./image/country\ icon.png)
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+
+button{
+    background-color: brown;
+    border-radius: 20px;
+    width: 50%;
+    margin-left:30%;
+    color: aliceblue;
+    font-size: 18px;
+    border: 4px double sandybrown; 
+    padding: 3px 3px;
+
+}
+
+button:hover{
+    background-color: rgba(14, 227, 110, 0.859);
+    border-radius: 20px;
+    width: 40%;
+    color: aliceblue;
+    font-size: 18px;
+    border: 4px;  
+    border: 4px double rgba(54, 241, 47, 0.648); 
+`    padding: 3px 3px; 
+}
